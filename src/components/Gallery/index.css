@@ -1,0 +1,23 @@
+.gallery-container {
+  margin: 35px;
+}
+.image-container {
+  width: 95%;
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 500;
+}
+.thumbnail_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media all and (min-width: 700px) {
+  .gallery-container {
+    width: 70%;
+  }
+}
